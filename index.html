@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tábor Pass</title>
+  <script>
+    window.onload = function() {
+      const now = new Date();
+      const startTime = new Date("2025-07-26T17:05:00");
+      const endTime = new Date("2025-07-26T17:45:00");
+
+      if (now >= startTime && now <= endTime) {
+        window.location.href = "https://docs.google.com/spreadsheets/d/1QMw8R2Uzp_D28vckJap2N2nrQxZiII8FP842XiJ7tK0/edit?usp=sharing";
+      } else {
+        window.location.href = "https://sites.google.com/view/iii-turnus1-4-7?usp=sharing";
+      }
+    }
+  </script>
+</head>
+<body>
+  <p>Initial commit - redirect page.</p>
+</body>
+</html>
